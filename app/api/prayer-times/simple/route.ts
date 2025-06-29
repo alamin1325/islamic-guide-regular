@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server"
 
+// Static export এর জন্য
+export const dynamic = "force-static"
+
 export async function GET() {
   try {
     // Simple static prayer times that always work

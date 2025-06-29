@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+// Static export এর জন্য
+export const dynamic = "force-static"
+
 interface Hadith {
   id: string
   hadithNumber: string

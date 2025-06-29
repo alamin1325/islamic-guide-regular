@@ -1,5 +1,8 @@
 import { type NextRequest, NextResponse } from "next/server"
 
+// Static export এর জন্য
+export const dynamic = "force-static"
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams
