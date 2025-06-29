@@ -12,7 +12,7 @@ const nextConfig = {
   // GitHub Pages এর জন্য
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/islamic-guide' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/islamic-guide-regular' : '',
 }
 
 export default nextConfig
